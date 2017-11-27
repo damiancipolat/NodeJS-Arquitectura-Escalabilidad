@@ -29,3 +29,5 @@ Ejemplo:
 ### Microservicio es un término que al momento se asocia más comúnmente con una escala de eje y de grano fino.
 
 La última dimensión de escalado es el eje z, donde la aplicación se divide de tal manera que cada instancia es responsable de solo una parte de los datos completos. Esta es una técnica principalmente utilizado en bases de datos y también toma el nombre de partición horizontal o sharding. 
+
+@todo: terminar de completar el contenido
