@@ -38,6 +38,7 @@ Ejemplos:
 - Dividir a los usuarios de una aplicación en función de su país (partición de lista), o en función de la letra de inicio de su
 apellido (partición de rango), o dejando que una función hash decida la partición cada el usuario pertenece. Cada partición se puede asignar a una particular instancia de nuestra aplicación.
 
+### ESCALAIBILIDAD
 En este link pueden verse analizadas con más detalles dos tecnicas para escalar aplicaciones Node.JS:
 
 - Clonación y balanceo de carga
