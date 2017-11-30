@@ -44,4 +44,4 @@ En este link pueden verse analizadas con más detalles dos tecnicas para escalar
 - **[Clonación y balanceo de carga]**
 - Arquitectura de microservicios
 
-[Clonación y balanceo de carga]:https://github.com/damiancipolat/Nodejs-Design-Pattern/blob/master/load_balance.md
+[Clonación y balanceo de carga]:https://github.com/damiancipolat/NodeJS-Arquitectura-Escalabilidad/blob/master/load_balance.md
