@@ -12,3 +12,6 @@ La forma de ampliar la capacidad de proceso es clonando nuestra aplicación y ej
 Si queres leer más sobre este modulo podes pasar por mi repo de paralelismo y concurrencia en donde muestro el modulo **[CLUSTER]**.
 
 [CLUSTER]:https://github.com/damiancipolat/NodeJS-Concurrencia-Paralelismo/tree/master/cluster
+
+## Balanceo de carga
+
