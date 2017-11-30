@@ -8,3 +8,6 @@ La forma de ampliar la capacidad de proceso es clonando nuestra aplicación y ej
 ![N|Solid](http://damiancipolat.com/webFiles/cluster.png)
 
 [Cluster module]: file:///C:/Users/damian/Desktop/Misc/Node.js%20Design%20Patterns_1.pdf
+
+Si queres leer más sobre este modulo podes pasar por mi repo de paralelismo y concurrencia en donde muestro el modulo **Cluster**.
+[Cluster]:https://github.com/damiancipolat/NodeJS-Concurrencia-Paralelismo/tree/master/cluster
