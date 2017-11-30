@@ -5,8 +5,6 @@ no podemos usar más de un hilo y tenemos la limitación de la memoria de 1GB.
 
 La forma de ampliar la capacidad de proceso es clonando nuestra aplicación y ejecutando una o más instancias, podemos hacerlo usando  [Cluster module].
 
-Ejemplo:
-
 ![N|Solid](http://damiancipolat.com/webFiles/cluster.png)
 
 [Cluster module]: file:///C:/Users/damian/Desktop/Misc/Node.js%20Design%20Patterns_1.pdf
