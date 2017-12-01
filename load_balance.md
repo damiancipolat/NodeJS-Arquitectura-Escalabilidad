@@ -7,6 +7,9 @@ La forma de ampliar la capacidad de proceso es clonando nuestra aplicación y ej
 
 ![N|Solid](http://damiancipolat.com/webFiles/cluster.png)
 
+Si queres leer más sobre este modulo podes pasar por mi repo de paralelismo y concurrencia en donde muestro el modulo **[CLUSTER]**.
+
+[CLUSTER]:https://github.com/damiancipolat/NodeJS-Concurrencia-Paralelismo/tree/master/cluster
 [Cluster module]: file:///C:/Users/damian/Desktop/Misc/Node.js%20Design%20Patterns_1.pdf
 
 Podemos probar dos tipos de script para entender este concepto: single.js y cluster.js
@@ -19,7 +22,7 @@ $ node single.js
 $ autocannon -c 100 -d 60 http://127.0.0.1:8080 -T -l
 
 ```
-Los resultados obtenidos **por autocannon**:
+Los resultados obtenidos ppr **autocannon**:
 
 ```sh
 Running 60s test @ http://127.0.0.1:8080
@@ -48,9 +51,7 @@ Obtuvimos 12.000 request en 1 minuto.
 
 
 
-Si queres leer más sobre este modulo podes pasar por mi repo de paralelismo y concurrencia en donde muestro el modulo **[CLUSTER]**.
 
-[CLUSTER]:https://github.com/damiancipolat/NodeJS-Concurrencia-Paralelismo/tree/master/cluster
 
 ## Balanceo de carga
 
