@@ -50,7 +50,7 @@ Percentile      Latency (ms)
 Obtuvimos 12.000 request en 1 minuto.
 ```
 
-### Tres instancias de forma concurrente:
+### Cuatro instancias de forma concurrente:
 
 ```sh
 
