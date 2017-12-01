@@ -14,6 +14,8 @@ Si queres leer más sobre este modulo podes pasar por mi repo de paralelismo y c
 
 Podemos probar dos tipos de script para entender este concepto: single.js y cluster.js
 
+### Una sola instancia:
+
 ```sh
 
 "Ejecutar una consola:"
@@ -47,6 +49,8 @@ Percentile      Latency (ms)
 
 Obtuvimos 12.000 request en 1 minuto.
 ```
+
+### Tres instancias de forma concurrente:
 
 ```sh
 
