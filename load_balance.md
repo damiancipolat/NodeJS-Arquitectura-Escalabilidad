@@ -7,35 +7,51 @@ La forma de ampliar la capacidad de proceso es clonando nuestra aplicación y ej
 
 ![N|Solid](http://damiancipolat.com/webFiles/cluster.png)
 
-[Cluster module]: file:///C:/Users/damian/Desktop/Misc/Node.js%20Design%20Patterns_1.pdf
-
-´´´js
-
-//Single webserver
-const http = require('http');
-const pid  = process.pid;
-
-http.createServer((req, res)=>{
-
- for(var i = 1e7; i > 0; i--) {}
-
- console.log('Handling request from ' + pid);
- res.end('Hello from ' + pid + '\n');
-
-}).listen(8080, ()=>{
-
- console.log('Started webserver pid:' + pid+' in port 8080');
-
-});
-
-
-´´´
-
-
-
 Si queres leer más sobre este modulo podes pasar por mi repo de paralelismo y concurrencia en donde muestro el modulo **[CLUSTER]**.
 
 [CLUSTER]:https://github.com/damiancipolat/NodeJS-Concurrencia-Paralelismo/tree/master/cluster
+[Cluster module]: file:///C:/Users/damian/Desktop/Misc/Node.js%20Design%20Patterns_1.pdf
+
+Podemos probar dos tipos de script para entender este concepto: single.js y cluster.js
+```sh
+
+"Ejecutar una consola:"
+$ node single.js
+
+"Vamos a medir la performance del server:"
+$ autocannon -c 100 -d 60 http://127.0.0.1:8080 -T -l
+
+```
+Los resultados obtenidos por **autocannon**:
+
+```sh
+Running 60s test @ http://127.0.0.1:8080
+100 connections
+
+Stat         Avg     Stdev Max
+Latency (ms) 506.37  37.92 605
+Req/Sec      196.5   5     200
+Bytes/Sec    22.8 kB 541 B 23.6 kB
+
+Percentile      Latency (ms)
+50              504
+75              512
+90              526
+99              581
+99.9            605
+99.99           605
+99.999          605
+
+12k requests in 60s, 1.37 MB read
+
+Obtuvimos 12.000 request en 1 minuto.
+```
+
+
+
+
+
+
 
 ## Balanceo de carga
 
