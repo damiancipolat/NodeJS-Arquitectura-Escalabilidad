@@ -13,6 +13,7 @@ Si queres leer más sobre este modulo podes pasar por mi repo de paralelismo y c
 [Cluster module]: file:///C:/Users/damian/Desktop/Misc/Node.js%20Design%20Patterns_1.pdf
 
 Podemos probar dos tipos de script para entender este concepto: single.js y cluster.js
+
 ```sh
 
 "Ejecutar una consola:"
@@ -47,10 +48,42 @@ Percentile      Latency (ms)
 Obtuvimos 12.000 request en 1 minuto.
 ```
 
+```sh
 
+"Ejecutar una consola:"
+$ node cluster.js
 
+"Vamos a medir la performance del server:"
+$ autocannon -c 100 -d 60 http://127.0.0.1:8080 -T -l
 
+```
+Los resultados obtenidos por **autocannon**:
 
+```sh
+$ autocannon -c 100 -d 60 http://127.0.0.1:8080 -T -l
+Running 60s test @ http://127.0.0.1:8080
+100 connections
+
+Stat         Avg     Stdev   Max
+Latency (ms) 164.07  111.62  640
+Req/Sec      607.19  99.86   759
+Bytes/Sec    70.6 kB 11.8 kB 90.1 kB
+
+Percentile      Latency (ms)
+50              162
+75              233
+90              305
+99              469
+99.9            564
+99.99           615
+99.999          640
+
+36k requests in 60s, 4.23 MB read
+
+Obtuvimos 36.000 request en 1 minuto.
+
+```
+La mejora es notable, obtuvimos el triple de la cantidad en el mismo tiempo que el caso anterior.
 
 
 ## Balanceo de carga
