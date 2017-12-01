@@ -38,7 +38,8 @@ Ejemplos:
 - Dividir a los usuarios de una aplicación en función de su país (partición de lista), o en función de la letra de inicio de su
 apellido (partición de rango), o dejando que una función hash decida la partición cada el usuario pertenece. Cada partición se puede asignar a una particular instancia de nuestra aplicación.
 
-En resumen:
+**En resumen**:
+Debemos ir adaptando la arquitectura de nuestras aplicaciones, según el caso en que nos encontremos:
 
 ![N|Solid](http://damiancipolat.com/webFiles/arq-diagram.png)
 
