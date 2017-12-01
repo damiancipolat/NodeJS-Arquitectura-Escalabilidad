@@ -9,6 +9,30 @@ La forma de ampliar la capacidad de proceso es clonando nuestra aplicación y ej
 
 [Cluster module]: file:///C:/Users/damian/Desktop/Misc/Node.js%20Design%20Patterns_1.pdf
 
+´´´js
+
+//Single webserver
+const http = require('http');
+const pid  = process.pid;
+
+http.createServer((req, res)=>{
+
+ for(var i = 1e7; i > 0; i--) {}
+
+ console.log('Handling request from ' + pid);
+ res.end('Hello from ' + pid + '\n');
+
+}).listen(8080, ()=>{
+
+ console.log('Started webserver pid:' + pid+' in port 8080');
+
+});
+
+
+´´´
+
+
+
 Si queres leer más sobre este modulo podes pasar por mi repo de paralelismo y concurrencia en donde muestro el modulo **[CLUSTER]**.
 
 [CLUSTER]:https://github.com/damiancipolat/NodeJS-Concurrencia-Paralelismo/tree/master/cluster
