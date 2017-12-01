@@ -21,6 +21,7 @@ $ autocannon -c 100 -d 60 http://127.0.0.1:8080 -T -l
 ```
 Los resultados obtenidos **por autocannon**:
 
+```sh
 Running 60s test @ http://127.0.0.1:8080
 100 connections
 
@@ -41,6 +42,7 @@ Percentile      Latency (ms)
 12k requests in 60s, 1.37 MB read
 
 Obtuvimos 12.000 request en 1 minuto.
+```
 
 
 
