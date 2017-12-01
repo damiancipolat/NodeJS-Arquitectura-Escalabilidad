@@ -22,7 +22,7 @@ $ node single.js
 $ autocannon -c 100 -d 60 http://127.0.0.1:8080 -T -l
 
 ```
-Los resultados obtenidos ppr **autocannon**:
+Los resultados obtenidos por **autocannon**:
 
 ```sh
 Running 60s test @ http://127.0.0.1:8080
