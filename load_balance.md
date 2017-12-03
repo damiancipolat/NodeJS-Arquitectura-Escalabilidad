@@ -95,5 +95,16 @@ El modulo cluster no es la unica opción que tenemos para escalar nuestra aplica
 
 La alternativa a usar el modulo cluster, es iniciar **multiples instancias** de la misma aplicación ejecutandose en distinos puertos de la maquina. La forma de controlarlos no es usando un proceso master que maneje workers. Para proveer un unico punto de acceso a nuestra aplicación, podemos usar un "reverse proxy", que es un dispositivo o servicio ubicado entre los clientes y las intancias de nuestra aplicación, el cual toma un request y lo redirecciona al servidor destino, retornando el retorno del request desde el server al cliente. Esto se usa como balanceo de carga, distributendo los requests a lo largo de las instancias de la aplicación.
 
+![N|Solid](damiancipolat.com/webFiles/load_balance.png)
+
+Ejemplos de balanceadores de carga que usan un reverse proxy:
+- Nginx (http://nginx.org)
+- HAProxy (http://www.haproxy.org)
+- Node.js-based proxis
+- Cloud-based proxies
+
+
+
+
 
 
