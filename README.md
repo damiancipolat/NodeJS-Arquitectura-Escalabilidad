@@ -48,6 +48,7 @@ Debemos ir adaptando la arquitectura de nuestras aplicaciones, según el caso en
 En este link pueden verse analizadas con más detalles dos tecnicas para escalar aplicaciones Node.JS:
 
 - **[Clonación y balanceo de carga]**
-- Arquitectura de microservicios
+- **[Microservicios]**
 
 [Clonación y balanceo de carga]:https://github.com/damiancipolat/NodeJS-Arquitectura-Escalabilidad/blob/master/load_balance.md
+[Microservicios]:https://github.com/damiancipolat/NodeJS-Arquitectura-Escalabilidad/blob/master/decomponse.md
