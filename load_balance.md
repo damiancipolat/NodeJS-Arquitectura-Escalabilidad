@@ -12,7 +12,7 @@ Si queres leer más sobre este modulo podes pasar por mi repo de paralelismo y c
 [CLUSTER]:https://github.com/damiancipolat/NodeJS-Concurrencia-Paralelismo/tree/master/cluster
 [Cluster module]: file:///C:/Users/damian/Desktop/Misc/Node.js%20Design%20Patterns_1.pdf
 
-Podemos probar dos tipos de script para entender este concepto: single.js y cluster.js
+Podemos probar dos tipos de script para entender este concepto: single.js y cluster.js son archivos que se encuentran si clonas este repotorio.
 
 ### Una sola instancia:
 
