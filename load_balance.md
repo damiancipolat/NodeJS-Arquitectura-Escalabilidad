@@ -103,7 +103,21 @@ Ejemplos de balanceadores de carga que usan un reverse proxy:
 - Node.js-based proxis
 - Cloud-based proxies
 
+Haremos una simple prueba de balanceo de carga usando Node.js:
 
+```sh
+
+"En el directorio load_balance"
+$ cd load_balance
+
+"Ejecutar en consolas seperadas"
+$ node server.js 8081
+$ node server.js 8082
+
+"Ejecutar el frontend server"
+$ node client.js
+
+```
 
 
 
