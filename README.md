@@ -51,4 +51,6 @@ En este link pueden verse analizadas con más detalles dos tecnicas para escalar
 - **[Microservicios]**
 
 [Clonación y balanceo de carga]:https://github.com/damiancipolat/NodeJS-Arquitectura-Escalabilidad/blob/master/load_balance.md
-[Microservicios]:https://github.com/damiancipolat/NodeJS-Arquitectura-Escalabilidad/blob/master/decomponse.md
+
+[Microservicios]:https://github.com/damiancipolat/NodeJS-Arquitectura-Escalabilidad/blob/master/decompose.md
+
