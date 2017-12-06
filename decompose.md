@@ -46,4 +46,8 @@ Pros y contras de usar microservicios:
    es mucho más fácil ocultar los detalles de implementación y proteger al cliente de los cambios en el
    forma en que se implementa o implementa el servicio
 
-- Una forma de escalar la aplicación.
+- Una forma de escalar la aplicación:
+
+  Los microservicios son equivalentes a escalar un aplicación a lo largo del eje y, por lo que ya es un medio 
+   para la distribución de la carga a través de máquinas múltiples Además, no debemos olvidar que podemos combinar 
+   microservicios con el otras dos dimensiones del cubo para escalar la aplicación aún más.
