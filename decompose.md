@@ -26,6 +26,7 @@ Las decisiones tomadas fueron las sig:
    - Busqueda
    - Autentificación
 
-
-Martin Fowler wrote a great article about microservices that you can find
-at http://martinfowler.com/articles/microservices.html.
+Pros y contras de usar microservicios:
+- Todos los servicios son prescindibles.
+- Reutilización en plataformas y lenguajes.
+- Una forma de escalar la aplicación.
