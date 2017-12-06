@@ -1,4 +1,6 @@
 ## Microservicios
+> Martin Fowler escribio un gran articulo sobre microservicios en:http://martinfowler.com/articles/microservices.html
+
 Microservicios es la arquitectura de hoy en dia, probablemente el principal patron de refencia
 para este tipo de acercamiento, donde un set de servicios auto suficientes, remplazan una gran aplicación monolitica. El prefijo **micro** signfica que el servicio debe ser lo más pequeño posible, pero siempre con
 limite razonables. 
@@ -23,3 +25,7 @@ Las decisiones tomadas fueron las sig:
    - Catalogo
    - Busqueda
    - Autentificación
+
+
+Martin Fowler wrote a great article about microservices that you can find
+at http://martinfowler.com/articles/microservices.html.
