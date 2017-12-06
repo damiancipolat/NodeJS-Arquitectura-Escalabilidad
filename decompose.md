@@ -28,6 +28,7 @@ Las decisiones tomadas fueron las sig:
 
 Pros y contras de usar microservicios:
 - Todos los servicios son prescindibles:
+
 La principal ventaja técnica de tener cada servicio viviendo en su propio contexto de aplicación es
 que los bloqueos, errores y cambios de interrupción no se propagan a todo el sistema. 
 
