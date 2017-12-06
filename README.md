@@ -1,6 +1,7 @@
 # NodeJS-Arquitectura-Escalabilidad
 
 En este repositorio voy a volcar el contenido y teoria del libro Nodejs patrones de diseño, **2da edición**.
+> Este repositorio esta pensado para que sea más como un resumen de contenidos que alojar proyectos de codígo.
 
 ![N|Solid](http://damiancipolat.com/webFiles/portada-libro-node-1.png)
 
