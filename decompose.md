@@ -27,6 +27,12 @@ Las decisiones tomadas fueron las sig:
    - Autentificación
 
 Pros y contras de usar microservicios:
-- Todos los servicios son prescindibles.
-- Reutilización en plataformas y lenguajes.
+- Todos los servicios son prescindibles:
+La principal ventaja técnica de tener cada servicio viviendo en su propio contexto de aplicación es
+que los bloqueos, errores y cambios de interrupción no se propagan a todo el sistema. 
+
+El objetivo es para construir servicios verdaderamente independientes que sean más pequeños, más fáciles de cambiar o incluso reconstruir a partir de errores.
+
+- Reutilización en plataformas y lenguajes:
+
 - Una forma de escalar la aplicación.
