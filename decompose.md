@@ -37,4 +37,13 @@ Pros y contras de usar microservicios:
 
 - Reutilización en plataformas y lenguajes:
 
+   Dividir una gran aplicación monolítica en muchos servicios pequeños nos permite crear
+   unidades independientes que se pueden reutilizar mucho más fácilmente.
+      
+   La principal ventaja es que el nivel de ocultamiento de información suele ser mucho mayor
+   en comparación con aplicaciones monolíticas. Esto es posible porque las interacciones generalmente
+   pasar a través de una interfaz remota, como un servicio web o un intermediario de mensajes, lo que hace
+   es mucho más fácil ocultar los detalles de implementación y proteger al cliente de los cambios en el
+   forma en que se implementa o implementa el servicio
+
 - Una forma de escalar la aplicación.
