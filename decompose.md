@@ -8,8 +8,10 @@ No hay que pensar que crear una arquitectura con cientos de diferentes aplicacio
 En realidad no hay ninguna regla estricta de que tan grande o chico debe ser un servicio.
 
 Un ejemplo de como seria una aplicación monolitica es la sig.
+
 ![N|Solid](http://damiancipolat.com/webFiles/micro_moniltico.png)
 
 Aplicando una descomposicón por funciones, podemos armar un arquitectura como la sig.
+
 ![N|Solid](http://damiancipolat.com/webFiles/micro_service_example.png)
 
