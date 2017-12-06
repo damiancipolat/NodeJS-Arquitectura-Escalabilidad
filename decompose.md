@@ -15,3 +15,10 @@ Aplicando una descomposicón por funciones, podemos armar un arquitectura como l
 
 ![N|Solid](http://damiancipolat.com/webFiles/micro_service_example.png)
 
+Las decisiones tomadas fueron las sig:
+1- Dividir el front end de la tienda online y el admnistrador, en aplicaciones diferentes.
+2- Separar los modulos, en servicios diferentes, teniendo cada uno una propia bd.
+   - Productos
+   - Catalogo
+   - Busqueda
+   - Autentificación
